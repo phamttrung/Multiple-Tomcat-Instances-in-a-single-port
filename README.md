@@ -12,3 +12,5 @@ From [vmware|blog](http://blogs.vmware.com/vfabric/2012/10/5-scenarios-and-best-
 >  * *Configure the Java Virtual Machine specifically for the needs of the application(s) running on that Tomcat instance.*
   
 ##How to set multiple Tomcat instances on a single port on Windows
+
+Brief step by step guide to install and configure
