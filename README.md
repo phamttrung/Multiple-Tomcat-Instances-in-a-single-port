@@ -11,6 +11,7 @@ From [vmware|blog](http://blogs.vmware.com/vfabric/2012/10/5-scenarios-and-best-
 >  * *Permit application-specific performance monitoring (and usage billing) by having each application in its own Tomcat instance.*
 >  * *Configure the Java Virtual Machine specifically for the needs of the application(s) running on that Tomcat instance.*
 
+
 Multipe Tomcat instances in a single port pros vs cons:
   * pros:
     * deployment of different stages of software (such as development, testing and production) on the same server 
