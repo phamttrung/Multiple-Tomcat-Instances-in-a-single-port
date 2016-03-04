@@ -11,6 +11,10 @@ From [vmware|blog](http://blogs.vmware.com/vfabric/2012/10/5-scenarios-and-best-
 >  * *Permit application-specific performance monitoring (and usage billing) by having each application in its own Tomcat instance.*
 >  * *Configure the Java Virtual Machine specifically for the needs of the application(s) running on that Tomcat instance.*
   
+Benefit in having multipe Tomcat instances:
+  * deployment of different stages of software (such as development, testing and production) on the same server 
+  * 
+
 ##How to set multiple Tomcat instances on a single port on Windows
 
 Brief step by step guide to install and configure
