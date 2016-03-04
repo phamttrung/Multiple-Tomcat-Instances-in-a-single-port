@@ -14,10 +14,13 @@ From [vmware|blog](http://blogs.vmware.com/vfabric/2012/10/5-scenarios-and-best-
 
 Multipe Tomcat instances in a single port pros vs cons:
   * pros:
-    * deployment of different stages of software (such as development, testing and production) on the same server 
+    * deployment of different stages of software (such as development, testing and production) on the same server, no need different VM
+	* no need to host multiple domains for different web applications such as big organizationand each depertment want to have and control their website
+	* solve the limited amount of concurrency, common libraries can be shared
   * cons:
-    * 
+    * webapps installed multiple times 
+	* one malfunctioning application can take down the whole server
 
 ##How to set multiple Tomcat instances on a single port on Windows
-
-Brief step by step guide to install and configure
+Brief step by step guide to install and configure: 
+virtual host, apache httpd server, tomcat, mod_jk connector
