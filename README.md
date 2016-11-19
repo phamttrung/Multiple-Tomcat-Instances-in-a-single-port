@@ -26,6 +26,7 @@ Brief step by step guide to install and configure:
 virtual host, apache httpd server, tomcat, mod_jk connector
   This installation and cofiguration guide is applicable to Tomcat 8. Please take note that Tomcat 8 requires JDK7 or JDK8 
   * Step 1: download and install JRE and JRE ([installation guide start here](https://docs.oracle.com/javase/8/docs/technotes/guides/install/install_overview.html))
+  
 	*([JRE 8](http://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html)
 	* [JDK 8](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
 	
